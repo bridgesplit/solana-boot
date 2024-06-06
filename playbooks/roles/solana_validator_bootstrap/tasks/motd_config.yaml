@@ -39,14 +39,6 @@
     group: root
     mode: '0600'
 
-- name: Disable 88-esm-announce
-  ignore_errors: true
-  file:
-    path: /etc/update-motd.d/88-esm-announce
-    owner: root
-    group: root
-    mode: '0600'
-
 - name: Disable 91-contract-ua-esm-status
   ignore_errors: true
   file:
